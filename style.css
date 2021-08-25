@@ -3,6 +3,8 @@ body {
   background: black;
   padding:0;
   margin:0;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -13,6 +15,7 @@ header {
 main {
   background-color: red;
   padding: 10px;
+  flex: 1 0;
 }
 
 footer {
