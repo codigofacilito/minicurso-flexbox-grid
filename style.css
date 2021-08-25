@@ -1,0 +1,15 @@
+.row{
+  display: flex;
+  max-width: 960px;
+  margin:0 auto;
+}
+
+img{
+  width: 200px;
+}
+
+.item{
+  text-align: center;
+  width: 300px;
+  margin:0 1em; /* Explicar el problema del margen */
+}
