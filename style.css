@@ -1,5 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .card{
   border-radius: 10px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
   height:100px;
+  /* min-width: 45%; */
+}
+
+.copy,.card{
+  width: 50%;
+  min-width: 500px;
+}
+
+.copy{
+  padding:0 1em;
+}
+
+@media (max-width:1000px) {
+  .copy.first{
+    order: -1;
+    /* background-color: red; */
+  }
 }
