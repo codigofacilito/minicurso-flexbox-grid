@@ -1,0 +1,21 @@
+body {
+  min-height: 100vh;
+  background: black;
+  padding:0;
+  margin:0;
+}
+
+header {
+  background-color: pink;
+  padding: 10px;
+}
+
+main {
+  background-color: red;
+  padding: 10px;
+}
+
+footer {
+  background-color: yellow;
+  padding: 10px;
+}
