@@ -1,0 +1,23 @@
+body {
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: aqua;
+  padding: 10px;
+}
+
+main {
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+footer {
+  background-color: wheat;
+  padding: 10px;
+}
