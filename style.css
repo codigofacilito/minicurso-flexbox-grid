@@ -1,13 +1,14 @@
-*{
+* {
   box-sizing: border-box;
 }
-.grey{
+
+.grey {
   background-color: aliceblue;
-  padding:20px;
-  border:3px solid black;
+  padding: 20px;
+  border: 3px solid black;
 }
 
-body{
+body {
   display: grid;
   grid-template-areas: "header header header header header"
     "logo headline headline headline headline"
@@ -21,24 +22,24 @@ body{
   row-gap: 20px;
 }
 
-header{
+header {
   grid-area: header;
   background-color: cadetblue;
   /* min-height: 100px; */
 }
 
-.first{
+.first {
   grid-area: logo;
   align-self: center;
 }
 
-.second{
+.second {
   grid-area: headline;
   align-self: center;
   height: 100px;
 }
 
-.pills-container{
+.pills-container {
   background-color: azure;
   grid-area: pills;
   display: flex;
@@ -46,22 +47,22 @@ header{
   align-items: center;
 }
 
-.pill{
+.pill {
   flex: 0 1 150px;
 }
 
-.main{
+.main {
   grid-area: main;
 }
 
-.card{
+.card {
   height: 100%;
 }
 
-.card.first{
+.card.first {
   grid-area: second;
 }
 
-.card.second{
+.card.second {
   grid-area: third;
 }
